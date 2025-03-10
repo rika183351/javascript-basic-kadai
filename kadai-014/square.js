@@ -1,5 +1,5 @@
 const num = (argument) => {
-    console.log(argument**2);
+    return argument**2;
 }
 
-num(10);
+console.log(num(10));
